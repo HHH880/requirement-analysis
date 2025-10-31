@@ -161,4 +161,17 @@ Verify that the system performs efficiently under peak load conditions.
 
 Ensure that the system’s interface is intuitive and error messages are user-friendly.
 
+Acceptance Criteria
+1. Clarifies Expectations:
+Acceptance criteria clearly define what is expected from each feature, reducing ambiguity between clients and developers.
+
+2. Ensures Quality and Functionality:
+They help verify that the system performs exactly as intended, meeting both functional and non-functional requirements.
+
+3. Guides Testing and Validation:
+Testers use acceptance criteria to create test cases and confirm whether the developed feature works correctly before it’s approved.
+
+4. Prevents Miscommunication:
+By documenting specific, measurable outcomes, acceptance criteria reduce misunderstandings among developers, testers, and stakeholders.
+
 Validate that the system maintains at least 99.9% uptime.
