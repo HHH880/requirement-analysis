@@ -56,3 +56,109 @@ The final step ensures that all documented requirements truly reflect user needs
 Stakeholders review and approve the SRS to confirm accuracy and completeness.
 
 Validation helps prevent errors and misunderstandings before the design and development phases begin.
+
+Types of Requirements.
+1. Requirement Gathering
+
+Definition:
+This phase involves collecting all the information about what the users and stakeholders expect the booking management system to do. It focuses on understanding their goals, challenges, and required system features.
+
+Functional Requirement Examples:
+
+Users should be able to create, view, edit, and cancel bookings.
+
+The system should allow customers to search for available dates, rooms, or services.
+
+Admins should be able to manage user accounts and view all booking records.
+
+Non-Functional Requirement Examples:
+
+The system should respond to booking queries within 3 seconds.
+
+The platform must be accessible 24/7.
+
+The interface should be user-friendly and compatible with both desktop and mobile devices.
+
+2. Requirement Elicitation
+
+Definition:
+This step involves interacting with stakeholders to uncover their actual needs, preferences, and expectations for the system. The goal is to clarify and refine requirements that may not be immediately obvious.
+
+Functional Requirement Examples:
+
+The system should send automated confirmation emails after a successful booking.
+
+Users should receive SMS notifications for booking updates or cancellations.
+
+The system should generate monthly booking reports for management.
+
+Non-Functional Requirement Examples:
+
+Notification delivery must occur within 10 seconds after any booking action.
+
+The system should handle at least 500 concurrent users without performance degradation.
+
+The interface language should be easy to read with clear labels and error messages.
+
+3. Requirement Documentation
+
+Definition:
+All gathered and elicited requirements are documented clearly in a structured format such as a Software Requirements Specification (SRS). This document serves as the official reference throughout the project.
+
+Functional Requirement Examples:
+
+The system must maintain a booking history for each customer.
+
+The admin should be able to export booking data in CSV or PDF formats.
+
+The payment module must integrate with PayPal and credit card options.
+
+Non-Functional Requirement Examples:
+
+The system should maintain data security through encryption.
+
+Backup and recovery processes should be automated daily.
+
+The SRS document should use clear, consistent terminology understandable by both technical and non-technical stakeholders.
+
+4. Requirement Analysis and Modeling
+
+Definition:
+In this stage, requirements are examined for completeness, conflicts, and feasibility. Models or diagrams (like use case or data flow diagrams) are created to visualize system behavior and data movement.
+
+Functional Requirement Examples:
+
+When a user submits a booking request, the system must check for availability before confirming.
+
+The system should prevent double-booking of the same resource at the same time.
+
+Admin dashboards should display real-time booking statistics.
+
+Non-Functional Requirement Examples:
+
+The database should support fast retrieval of records (less than 2 seconds per query).
+
+The system architecture should be scalable to accommodate future modules like promotions or loyalty programs.
+
+The system should comply with data privacy standards such as GDPR.
+
+5. Requirement Validation
+
+Definition:
+Validation ensures that all documented requirements correctly represent stakeholder expectations and that the system is practical and testable. It often involves reviews, prototypes, and stakeholder approvals.
+
+Functional Requirement Examples:
+
+Test cases should confirm that users can successfully create, modify, and cancel bookings.
+
+Validate that payment transactions are correctly recorded and receipts are issued.
+
+Confirm that booking notifications are sent as expected.
+
+Non-Functional Requirement Examples:
+
+Verify that the system performs efficiently under peak load conditions.
+
+Ensure that the system’s interface is intuitive and error messages are user-friendly.
+
+Validate that the system maintains at least 99.9% uptime.
